@@ -1,4 +1,6 @@
 #include "variadic_functions.h"
+#include <stdarg.h>
+#include <stdio.h>
 
 /**
  * print_number - prints numbers by new line
