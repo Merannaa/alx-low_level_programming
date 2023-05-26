@@ -2,8 +2,8 @@
 
 /**
  * main - check the code
- * @argc: number argument
- * @argv: argument
+ * @argc: number argument c
+ * @argv: argument v
  * Return: 0 Always
  */
 int main(int argc, char *argv[])
