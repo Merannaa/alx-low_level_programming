@@ -2,11 +2,11 @@
 
 /**
  * main - check the code
- * @argc: number arg
+ * @argc: number argument
  * @argv: argument
- * Return: 0
+ * Return: 0 Always
  */
-int main(int argc, char **argv[])
+int main(int argc, char *argv[])
 {
 	int a, b;
 	int (*operation)(int, int);
