@@ -27,7 +27,7 @@ int create_file(const char *filename, char *text_content)
 	for (mletters = 0; text_content[mletters]; mletters++)
 		;
 
-	rwr = write(fd, text_content, mletters);
+	rwr = write(mr, text_content, mletters);
 
 	if (rwr == -1)
 		return (-1);
